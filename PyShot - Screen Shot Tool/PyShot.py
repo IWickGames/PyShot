@@ -70,5 +70,5 @@ def screenShotCall():
 
 
 while True:
-    if keyboard.is_pressed("Print_Screen"):
-        screenShotCall()
+    keyboard.wait("Print_Screen")
+    screenShotCall()
